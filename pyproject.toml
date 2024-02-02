@@ -6,7 +6,11 @@ authors = ["rafael <123484899+rafaeljcd@users.noreply.github.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python = "^3.12,<3.13"
+pytube = "^15.0.0"
+ruff = "^0.2.0"
+rich = "^13.7.0"
+pygit2 = "^1.14.0"
 
 
 [build-system]
